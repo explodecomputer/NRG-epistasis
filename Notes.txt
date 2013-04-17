@@ -1,0 +1,56 @@
+There is evidence for epistasis being widespread, if of lower importance to additive effects
+
+- Bloom 2013,
+- Baryshnikova 2010 Quantitative analysis of fitness and genetic interactions in yeast on a genome scale, 
+- Martin 2007 Distrobutions of epistasis in microbes, 
+- DRYGIN data set - Costanzo 2010 The genetic landscape of a cell
+
+There is also evidence that epistasis increases with increasing organism complexity (Sanjuan 2006). So why do we not see epistasis in higher organisms?
+
+- Epistasis is larger when effects are smaller?
+- LD
+- Power
+- Epistatic effects are relatively larger when genetic effects are smaller
+-- Woods Second-order selection for evolvability in a large ecoli popn 
+-- Velenich (under submission)
+
+- Additive x additive is maximised at frequencies of 0.5 x 0.5. Most human variation is at lower frequencies
+
+
+
+EXAMPLES
+
+Psoriasis (skin condition, 2.5%, h2=60-90%)
+Interaction test
+- Pairwise between top SNPs
+- Null = Multiplicative at each locus combined on odds ratio; Alt = Null + Multiplicative AxD interaction
+- Replicated
+- ERAP1 only has an additive effect when at least one risk allele at HLA-C is present
+- Searched for epistasis amongst all SNPs and HLA-C, nothing else significant found
+- Mostly additive
+
+
+Ankylosing spondylitis (inflammatory arthritis, prevalence = 5/1000, ht=90%)
+Interaction test
+- Pairwise between top SNPs
+- Same test as Psoriasis
+- Replicated twice
+- ERAP1 only has an effect when at least one risk allele at HLA_C is present
+- Mostly additive
+
+
+3 more studies
+
+
+There has not been much epistasis found. Is this because 
+- We are looking in the wrong place and have not found it yet
+- It is too difficult
+- It does not exist
+
+Can we make inference on this?
+
+
+
+
+
+
