@@ -1,0 +1,97 @@
+To which scientific question(s) is epistasis the answer?
+
+
+Abstract
+
+Genome wide association (GWA) studies have become the focus of the statistical analysis of complex traits in humans, successfully shedding light on several aspects of genetic architecture and also biological aetiology.  Single nucleotide polymorphisms (SNPs) are usually modeled as having linear, cumulative, and independent effects on the phenotype. Though evidently a useful approach, it is often argued that this is not a realistic biological model and that interactions between SNPs should be included. In this review we discuss the relevance of epistasis in the context of GWA studies, recent advances in methodology, evidence of its contribution to complex traits in humans, and potential hazards in the interpretation of statistical interaction terms.
+
+
+Introduction
+============
+
+Complex traits or diseases are those that are influenced by multiple environmental and genetic factors. It is a safe generalisation that all those diseases that have a significant impact on human health are shown to be complex at the population scale. Indeed, even classically "Mendelian" diseases, such as cystic fibrosis, are at some level complex because numerous genetic effects are involved in modifying the breadth and severity of symptoms. Arguably the most important empirical result to emerge from GWA studies over the past decade is an indication of what it means for a trait to be "complex", demonstrating that the mutational target size for any particular trait across the genome is very large and that the additive genetic variation is comprised of very many effects, each of very small effect sizes.
+
+One can estimate the proportion of the phenotypic variance of a trait that is attributed to additive genetic effects through several methods using samples of related individuals. Estimating how much of the phenotypic variation attributed to all genetic effects (including dominance and epistasis) is not possible for humans. GWA studies are typically performed on traits that have been shown to have a non-zero narrow-sense heritability, the logic being that there is additive genetic variation in the trait and this can be dissected into additive effects across the genome. In this context, it is already known that the additive genetic architecture is complex. Detecting non-additive genetic effects imposes an hypothesis that beyond that additive component of genetic variation that has been measured exists more complex components that have not. The measurable gap between the variance explained by all known additive effects and h2 is termed the "missing heritability". The proportion of the genetic variation that might exist beyond additive variance might be termed the "unknown heritability". 
+
+In essence, there is no strict hypothesis-driven precedent for searching for epistasis as there is for additive effects, and while we have still yet to fully understand the architecture of additive genetic effects the modelling complexity for epistatic effects is much greater. So why does anybody care about epistasis?
+
+
+To which scientific question(s) is epistasis the answer?
+====================================================
+
+The missing heritability?
+-------------------------
+By strict definition, epistasis does not have a role to play in the problem of the missing heritability. The missing heritability pertains to the problem that there are insufficient additive effects discovered to account for the additive genetic variance estimated to exist for that trait. SNPs that interact can have marginal additive (and dominance) effects, but the key to declaring that they interact is that they have an epistatic effect that does not contribute to additive genetic variation. In principle, the total additive genetic variance accounted for by interacting SNPs can be captured by a standard GWA study searching for additive effects that is suitably powered.
+
+The missing heritability emerges from two variables, the tally of genetic effects uncovered and the estimate of the trait's h2, and in each case epistasis may have a subtle part to play. Firstly, some theoretical studies postulate that if, for some interacting loci, the epistatic variance is large compared to the additive variance, searching for epistatic effects might be one way to uncover loci with additive variance with more power than searching for the additive effects directly. Such an instance might arise if the trait has a large mutational target and is under direct selection. Thus, an increase in the number of interacting loci discovered may very well increase the proportion of additive variance uncovered.
+
+Secondly, because the direct estimation of non-additive genetic variation is almost always intractible, its contribution to the resemblence between relatives is unknown. Thus, heritability estimates may be inflated through contamination from non-additive variation. To what extent is this realistically a problem and how reliably can it be measured? A recent theoretical study (Zuk 2011) gained much attention after demonstrating that redundancy amongst biological pathways could create an illusion of additive genetic variance in twin studies provided. Indeed it is a known issue in such study designs that though it is not the most parsimonious model, a combination of non-additive variation and common environmental variation can lead to a significant additive parameter. To overcome this problem one can attempt to use family-based studies to estimate additive effects directly, and one can use contrasts between different types of relatives. For example, full siblings will share 0.5 additive variance and 0.25 dominance variance, while parent-offspring will share 0.5 additive and 0 dominance variance. If the correlation between degree of shared additive variation and phenotypic similarity is high across all types of relatives then this would be strong evidence for heritability estimates being uncontaminated by non-additive variance. Height shows consistent estimates of heritability between twin studies and family studies, but h2 estimates for BMI are much higher from twin studies than from family studies, suggesting that height is probably mostly influenced by additive effects and non-additive effects may play an important role in BMI.
+
+
+Biological mechanisms?
+----------------------
+In model organisms it is possible to 
+
+functions of mutations
+relationships between independent genomic features
+construction of pathways
+genetic redundancy
+
+
+Evolutionary impact of complex traits?
+--------------------------------------
+
+Improvement of prediction?
+--------------------------
+
+
+
+For:
+1. They may explain missing variation
+2. They may indicate the evolutionary persistence of additive effects
+3. It seems to be widespread in artificial genetic variation
+4. Knowing how independent regions interact statistically could shed light on biological mechanisms
+
+Against:
+1. The additive model is simple and effective
+2. There are no non-additive models in animal breeding but there is extremely good progress in morphological selection
+3. Detection of epistatic effects is very hard, and additive models are already underpowered
+4. We expect less variance to be contributed by non-additive effects based on Taylor's expansion, narrow sense heritability estimates, etc.
+
+
+
+Methods for detecting epistasis
+===============================
+
+
+
+What has been found in human complex traits?
+============================================
+
+
+Scale effects, haplotype effects, linked loci, liability vs observed models
+
+
+
+
+Box 1: Why is epistasis theoretically difficult to detect?
+==========================================================
+LD
+Higher order interactions
+Curse of dimensionality / significance thresholds
+Sample size
+Replication
+
+Box 2: What constitutes a significant epistatic interaction?
+============================================================
+Intolerant of false positives
+Replication
+
+
+Glossary
+========
+
+Complex traits
+Mutational target size
+Additive genetic variance
+Marginal effects
