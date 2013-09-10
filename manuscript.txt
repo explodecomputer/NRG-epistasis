@@ -1,9 +1,10 @@
-To which scientific question(s) is epistasis the answer?
+Witty, yet serious title to go here
+===================================
 
 
 Abstract
 
-Genome wide association (GWA) studies have become the focus of the statistical analysis of complex traits in humans, successfully shedding light on several aspects of genetic architecture and also biological aetiology.  Single nucleotide polymorphisms (SNPs) are usually modeled as having linear, cumulative, and independent effects on the phenotype. Though evidently a useful approach, it is often argued that this is not a realistic biological model and that interactions between SNPs should be included. In this review we discuss the relevance of epistasis in the context of GWA studies, recent advances in methodology, evidence of its contribution to complex traits in humans, and potential hazards in the interpretation of statistical interaction terms.
+Genome wide association (GWA) studies have become the focus of the statistical analysis of complex traits in humans, successfully shedding light on several aspects of genetic architecture and also biological aetiology.  Single nucleotide polymorphisms (SNPs) are usually modelled as having linear, cumulative, and independent effects on the phenotype. Though evidently a useful approach, it is often argued that this is not a realistic biological model and that interactions between SNPs should be included. In this review we discuss the relevance of epistasis in the context of GWA studies, recent advances in methodology, evidence of its contribution to complex traits in humans, and potential hazards in the interpretation of statistical interaction terms.
 
 
 Introduction
@@ -11,13 +12,13 @@ Introduction
 
 Complex traits or diseases are those that are influenced by multiple environmental and genetic factors. It is a safe generalisation that all those diseases that have a significant impact on human health are shown to be complex at the population scale. Indeed, even classically "Mendelian" diseases, such as cystic fibrosis, are at some level complex because numerous genetic effects are involved in modifying the breadth and severity of symptoms. Arguably the most important empirical result to emerge from GWA studies over the past decade is an indication of what it means for a trait to be "complex", demonstrating that the mutational target size for any particular trait across the genome is very large and that the additive genetic variation is comprised of very many effects, each of very small effect sizes.
 
-One can estimate the proportion of the phenotypic variance of a trait that is attributed to additive genetic effects through several methods using samples of related individuals. Estimating how much of the phenotypic variation attributed to all genetic effects (including dominance and epistasis) is not possible for humans. GWA studies are typically performed on traits that have been shown to have a non-zero narrow-sense heritability, the logic being that there is additive genetic variation in the trait and this can be dissected into additive effects across the genome. In this context, it is already known that the additive genetic architecture is complex. Detecting non-additive genetic effects imposes an hypothesis that beyond that additive component of genetic variation that has been measured exists more complex components that have not. The measurable gap between the variance explained by all known additive effects and h2 is termed the "missing heritability". The proportion of the genetic variation that might exist beyond additive variance might be termed the "unknown heritability". 
+One can estimate the proportion of the phenotypic variance of a trait that is attributed to additive genetic effects through several methods using samples of related individuals. Estimating how much of the phenotypic variation attributed to all genetic effects (including dominance and epistasis) is not possible for humans. GWA studies are typically performed on traits that have been shown to have a non-zero narrow-sense heritability, the logic being that there is additive genetic variation in the trait and this can be dissected into additive effects across the genome. In this context, it is already known that the additive genetic architecture is complex. Detecting non-additive genetic effects imposes an assumption that beyond the additive component of genetic variation for which there is empirical evidence exists more complex components for which empirical evidence cannot be obtained. The measurable gap between the variance explained by all known additive effects and h2 is termed the "missing heritability". The proportion of the genetic variation that might exist beyond additive variance might be termed the "unknown heritability". 
 
 In essence, there is no strict hypothesis-driven precedent for searching for epistasis as there is for additive effects, and while we have still yet to fully understand the architecture of additive genetic effects the modelling complexity for epistatic effects is much greater. So why does anybody care about epistasis?
 
 
 To which scientific question(s) is epistasis the answer?
-====================================================
+========================================================
 
 The missing heritability?
 -------------------------
@@ -30,7 +31,6 @@ Secondly, because the direct estimation of non-additive genetic variation is alm
 
 Biological mechanisms?
 ----------------------
-In model organisms it is possible to 
 
 functions of mutations
 relationships between independent genomic features
@@ -38,13 +38,34 @@ construction of pathways
 genetic redundancy
 
 
-Evolutionary impact of complex traits?
---------------------------------------
-
-Improvement of prediction?
---------------------------
+Evolutionary persistence of deleterious mutations?
+--------------------------------------------------
 
 
+Improvement in genetic prediction?
+----------------------------------
+
+
+
+
+Methods for detecting epistasis
+===============================
+
+Wenhua's stuff
+
+
+What has been found in human complex traits?
+============================================
+
+Scale effects, haplotype effects, linked loci, liability vs observed scale
+
+
+
+
+Discussion
+==========
+
+Should we be looking for epistasis?
 
 For:
 1. They may explain missing variation
@@ -56,36 +77,24 @@ Against:
 1. The additive model is simple and effective
 2. There are no non-additive models in animal breeding but there is extremely good progress in morphological selection
 3. Detection of epistatic effects is very hard, and additive models are already underpowered
-4. We expect less variance to be contributed by non-additive effects based on Taylor's expansion, narrow sense heritability estimates, etc.
+4. We expect less variance to be contributed by non-additive effects based on Taylor series expansions, narrow sense heritability estimates, etc.
 
 
-
-Methods for detecting epistasis
-===============================
-
-
-
-What has been found in human complex traits?
-============================================
-
-
-Scale effects, haplotype effects, linked loci, liability vs observed models
-
-
+============================================================================
 
 
 Box 1: Why is epistasis theoretically difficult to detect?
 ==========================================================
-LD
+LD - Depends on r^4, r^6, r^8
 Higher order interactions
 Curse of dimensionality / significance thresholds
 Sample size
-Replication
+Replication - Sample LD is larger for r^8 than it is for r^2, ascertainment of high r in discovery leads to low replication in replication - need to use imputed data.
 
 Box 2: What constitutes a significant epistatic interaction?
 ============================================================
-Intolerant of false positives
-Replication
+Mustn't be tolerant of false positives just because detection is hard
+Replication is necessary
 
 
 Glossary
