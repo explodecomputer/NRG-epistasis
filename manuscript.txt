@@ -26,20 +26,39 @@ By strict definition, epistasis does not have a role to play in the problem of t
 
 The missing heritability emerges from two variables, the tally of genetic effects uncovered and the estimate of the trait's h2, and in each case epistasis may have a subtle part to play. Firstly, some theoretical studies postulate that if, for some interacting loci, the epistatic variance is large compared to the additive variance, searching for epistatic effects might be one way to uncover loci with additive variance with more power than searching for the additive effects directly. Such an instance might arise if the trait has a large mutational target and is under direct selection. Thus, an increase in the number of interacting loci discovered may very well increase the proportion of additive variance uncovered.
 
-Secondly, because the direct estimation of non-additive genetic variation is almost always intractible, its contribution to the resemblence between relatives is unknown. Thus, heritability estimates may be inflated through contamination from non-additive variation. To what extent is this realistically a problem and how reliably can it be measured? A recent theoretical study (Zuk 2011) gained much attention after demonstrating that redundancy amongst biological pathways could create an illusion of additive genetic variance in twin studies provided. Indeed it is a known issue in such study designs that though it is not the most parsimonious model, a combination of non-additive variation and common environmental variation can lead to a significant additive parameter. To overcome this problem one can attempt to use family-based studies to estimate additive effects directly, and one can use contrasts between different types of relatives. For example, full siblings will share 0.5 additive variance and 0.25 dominance variance, while parent-offspring will share 0.5 additive and 0 dominance variance. If the correlation between degree of shared additive variation and phenotypic similarity is high across all types of relatives then this would be strong evidence for heritability estimates being uncontaminated by non-additive variance. Height shows consistent estimates of heritability between twin studies and family studies, but h2 estimates for BMI are much higher from twin studies than from family studies, suggesting that height is probably mostly influenced by additive effects and non-additive effects may play an important role in BMI.
+Secondly, because the direct estimation of non-additive genetic variation is almost always intractible, its contribution to the resemblence between relatives is unknown. Thus, it is possible that under certain experimental designs heritability estimates are inflated through contamination from non-additive variation. To what extent is this realistically a problem and how reliably can it be measured? A recent theoretical study (Zuk 2011) gained much attention after demonstrating that redundancy amongst biological pathways could create an illusion of additive genetic variance in twin studies provided. Indeed it is a known issue in such study designs that though it is not the most parsimonious model, a combination of non-additive variation and common environmental variation can lead to a significant additive parameter. To overcome this problem one can attempt to use family-based studies to estimate additive effects directly, and one can use contrasts between different types of relatives. For example, full siblings will share 0.5 additive variance and 0.25 dominance variance, while parent-offspring will share 0.5 additive and 0 dominance variance. If the correlation between degree of shared additive variation and phenotypic similarity is high across all types of relatives then this would be strong evidence for heritability estimates being uncontaminated by non-additive variance. Height shows consistent estimates of heritability between twin studies and family studies, but h2 estimates for BMI are much higher from twin studies than from family studies, suggesting that height is probably mostly influenced by additive effects and non-additive effects may play an important role in BMI.
 
 
-Biological mechanisms?
+Elucidating biological mechanisms?
 ----------------------
+<<<<<<< HEAD
+=======
+
+Suppose one has identified two polymorphisms, from independent regions of the genome, that exhibit a statistical interaction. What biological information can this tell us?
+>>>>>>> 5190e628fa77bbc119aa2df2709b7bff109b6745
 
 functions of mutations
 relationships between independent genomic features
 construction of pathways
 genetic redundancy
 
+Are there examples of interactions leading to understanding?
+Are there examples where this hasn't improved understanding?
 
+
+<<<<<<< HEAD
 Evolutionary persistence of deleterious mutations?
 --------------------------------------------------
+=======
+Evolutionary impact of complex traits?
+--------------------------------------
+
+Much has
+
+
+Improvement of prediction?
+--------------------------
+>>>>>>> 5190e628fa77bbc119aa2df2709b7bff109b6745
 
 
 Improvement in genetic prediction?
@@ -85,11 +104,30 @@ Against:
 
 Box 1: Why is epistasis theoretically difficult to detect?
 ==========================================================
+<<<<<<< HEAD
 LD - Depends on r^4, r^6, r^8
 Higher order interactions
 Curse of dimensionality / significance thresholds
 Sample size
 Replication - Sample LD is larger for r^8 than it is for r^2, ascertainment of high r in discovery leads to low replication in replication - need to use imputed data.
+=======
+
+The genetic variance of complex traits is typically comprised of very many polymorphisms, each with a very small effect. Herein lies the most parsimonious explanation for the problem of the missing heritability, and informs that association studies need to increase in size dramatically in order to detect more variants. Supposing that non-additive variance is similarly comprised of numerous small effects, the statistical power to detect them is, in principle, much lower than that of detecting additive effects for a number of reasons.
+
+- Linkage disequilibrium
+The variance explained by a SNP detected in a GWAS is unlikely to be equal to the variance explained by the true causal variant that is being tagged by the marker. The additive variance at the observed marker will decrease linearly with decreasing LD r^2 between itself and the causal variant, thus if effect sizes are small then GWAS is dependent upon there being high LD between causal variants and observed SNPs. However, the decrease in dominance variance with LD r^2 is quadratic, thus the dependence on high LD between observed SNPs and unobserved causal variants is much higher when detecting dominance effects. Extending this to two loci, the additive x additive variance is linearly dependent upon sufficient LD at two independent positions (reduces quadratically with LD r^2), and dominance x dominance variance is quadratically dependent at both positions (reduces to the fourth power with LD r^2). The consequence of these constraints is that any given SNP chip has substantially greater coverage of the genome when searching for additive effects than when searching for epistatic effects. To overcome this problem one needs larger sample sizes or more dense genotyping (or sequencing) to identify non-additive effects at the same power as additive effects.
+
+- Curse of dimensionality / significance thresholds
+The search for additive effects is performed in a single dimensional search space, that is, our search is constrained to the number of markers in the experiment. In principle, searching for epistasis involves expanding from one dimension to two or more dimensions, thus the parameter space increases exponentially. This problem, where any signal becomes drowned out by the noise, is known as the "curse of dimensionality". There are several strategies that one can use to scan the genome for epistatic effects, but they typically involve expansion of the search space and a higher multiple testing penalty than is required for detecting non-epistatic effects. Therefore, in order to obtain the same power of detection as searching for additive effects, the sample size must increase and/or one depends on the epistatic variance being larger.
+
+- 
+
+Model complexity
+
+Replication
+Higher order interactions
+
+>>>>>>> 5190e628fa77bbc119aa2df2709b7bff109b6745
 
 Box 2: What constitutes a significant epistatic interaction?
 ============================================================

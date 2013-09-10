@@ -1,3 +1,153 @@
+
+EXAMPLES FROM ASSOCIATION
+
+Psoriasis (skin condition, 2.5%, h2=60-90%)
+-------------------------------------------
+Strange et al Nat Gen 2010
+
+Interaction test
+- Pairwise between top SNPs
+- Null = Multiplicative at each locus combined on odds ratio; Alt = Null + Multiplicative AxD interaction
+- Replicated
+- ERAP1 only has an additive effect when at least one risk allele at HLA-C is present
+- Searched for epistasis amongst all SNPs and HLA-C, nothing else significant found
+- Mostly additive
+- WTCCC
+
+
+Ankylosing spondylitis (inflammatory arthritis, prevalence = 5/1000, ht=90%)
+----------------------------------------------------------------------------
+Evans et al Nat Gen 2011
+
+Interaction test
+- Pairwise between top SNPs
+- Same test as Psoriasis
+- Replicated twice
+- ERAP1 only has an effect when at least one risk allele at HLA_C is present
+- Mostly additive
+- WTCCC
+
+
+Type 1 diabetes (1/10,000 prevalence; 75% h2)
+---------------------------------------------
+Smyth et al Diabetes 2008
+
+- Candidate gene (PTPN22 vs HLA2)
+- Reduced OR for PTPN22 in high risk HLA2 haplotypes
+- Scale effect?
+
+
+Type 2 diabetes (10% prevalence; 26% heritability)
+--------------------------------------------------
+Bell et al Annals of Human Genetics 2011
+- Pairwise search using 70k tagging SNPs from WTCCC
+- Found 79 pairwise SNPs, but 80% had the same SNP at one of the loci
+- No replication attempted
+
+
+Allergic disease (asthma - 8% prevalence, 50% heritable)
+--------------------------------------------------------
+Orsmark-Pietras et al Human Molecular Genetics 2008
+
+- Candidate gene
+- Replicated and in-vitro 
+- Change of direction - TNC locus is protective for NPSR1 TT genotype, risk for CC genotype
+
+
+
+Alzheimers (prevalence: 15%, heritability: 65%)
+-----------------------------------------------
+Bosco, P., et al. (2007) The CDC2 I-G-T haplotype associated with the APOE epsilon4 allele increases the risk of sporadic Alzheimer's disease in Sicily, Neurosci Lett, 419, 195-198.
+Bullock, J.M., et al. (2013) Discovery by the Epistasis Project of an epistatic interaction between the GSTM3 gene and the HHEX/IDE/KIF11 locus in the risk of Alzheimer's disease, Neurobiol Aging, 34, 1309 e1301-1307.
+Calero, O., et al. (2011) Genetic cross-interaction between APOE and PRNP in sporadic Alzheimer's and Creutzfeldt-Jakob diseases, PLoS One, 6, e22090.
+Carrieri, G., et al. (2001) Mitochondrial DNA haplogroups and APOE4 allele are non-independent variables in sporadic Alzheimer's disease, Hum Genet, 108, 194-198.
+Combarros, O., et al. (2009) Replication by the Epistasis Project of the interaction between the genes for IL-6 and IL-10 in the risk of Alzheimer's disease, J Neuroinflammation, 6, 22.
+Combarros, O., et al. (2010) The dopamine beta-hydroxylase -1021C/T polymorphism is associated with the risk of Alzheimer's disease in the Epistasis Project, BMC Med Genet, 11, 162.
+Drigalenko, E., et al. (1998) Interaction of the apolipoprotein E and CI loci in predisposing to late-onset Alzheimer's disease, Neurology, 51, 131-135.
+Edland, S.D., et al. (2003) Insulin degrading enzyme (IDE) genetic variants and risk of Alzheimer's disease: evidence of effect modification by apolipoprotein E (APOE), Neurosci Lett, 345, 21-24.
+Heun, R., et al. (2012) Interactions between PPAR-alpha and inflammation-related cytokine genes on the development of Alzheimer's disease, observed by the Epistasis Project, Int J Mol Epidemiol Genet, 3, 39-47.
+Kolsch, H., et al. (2012) Interaction of insulin and PPAR-alpha genes in Alzheimer's disease: the Epistasis Project, J Neural Transm, 119, 473-479.
+Li, L., et al. (2012) CYP46A1 T/C polymorphism associated with the APOEepsilon4 allele increases the risk of Alzheimer's disease, J Neurol.
+Mattila, K.M., et al. (2000) Interaction between estrogen receptor 1 and the epsilon4 allele of apolipoprotein E increases the risk of familial Alzheimer's disease in women, Neurosci Lett, 282, 45-48.
+Mattila, K.M., et al. (2000) Dipeptidyl carboxypeptidase 1 (DCP1) and butyrylcholinesterase (BCHE) gene interactions with the apolipoprotein E epsilon4 allele as risk factors in Alzheimer's disease and in Parkinson's disease with coexisting Alzheimer pathology, J Med Genet, 37, 766-770.
+Porrello, E., et al. (2006) Estrogen receptor alpha and APOEepsilon4 polymorphisms interact to increase risk for sporadic AD in Italian females, Eur J Neurol, 13, 639-644.
+Rodriguez, E., et al. (2006) Cholesteryl ester transfer protein (CETP) polymorphism modifies the Alzheimer's disease risk associated with APOE epsilon4 allele, J Neurol, 253, 181-185.
+Turton, J.C., et al. (2011) Investigating statistical epistasis in complex disorders, J Alzheimers Dis, 25, 635-644.
+Vazquez-Higuera, J.L., et al. (2009) Genetic interaction between tau and the apolipoprotein E receptor LRP1 Increases Alzheimer's disease risk, Dement Geriatr Cogn Disord, 28, 116-120.
+
+
+
+Bipolar (4% prevalence, 80% h2)
+-------------------------------
+Ultrafast genome-wide scan for SNP-SNP interactions in common complex disease.
+Prabhu and Pe'er Genome Research 2012
+- Fast pairwise method
+- Canalised epistasis
+- Replicated
+- WTCCC
+
+
+
+Expression
+----------
+Becker et al EJHG 2010
+- 15% of expression traits have a cis-trans eQTL
+- Used plink --epistasis flag - this is AxA or multiplicative
+
+
+
+Multiple Sclerosis - 0.001 prevalence, 24-86% h2
+------------------------------------------------
+Lincoln et al PNAS 2009
+
+- Candidate gene
+- Local interactions within haplotype group in MHC
+- Replicated
+- Haig 2011
+
+
+============================
+============================
+
+
+EXAMPLES FROM NETWORK APPROACHES
+------------------------
+
+
+Lipid levels - prevalence 2.8%, h2=38%
+-----------------------------------------
+Ma et al PLoS Genetics 2013
+- Pathway based gene tests
+
+
+
+Bipolar
+-------
+Epistasis network centrality analysis yields pathway replication across two GWAS cohorts for bipolar disorder.
+Pandey A, Davis NA, White BC, Pajewski NM, Savitz J, Drevets WC, McKinney BA.
+Transl Psychiatry. 2012 Aug 14;2:e154. doi: 10.1038/tp.2012.80.
+
+
+Prostate Cancer
+---------------
+Interaction among apoptosis-associated sequence variants and joint effects on aggressive prostate cancer.
+Lavender NA, Rogers EN, Yeyeodu S, Rudd J, Hu T, Zhang J, Brock GN, Kimbro KS, Moore JH, Hein DW, Kidd LC.
+BMC Med Genomics. 2012 Apr 30;5:11. doi: 10.1186/1755-8794-5-11.
+
+
+Bladder cancer
+--------------
+HSD3B and gene-gene interactions in a pathway-based analysis of genetic susceptibility to bladder cancer.
+Andrew AS, Hu T, Gu J, Gui J, Ye Y, Marsit CJ, Kelsey KT, Schned AR, Tanyos SA, Pendleton EM, Mason RA, Morlock EV, Zens MS, Li Z, Moore JH, Wu X, Karagas MR.
+PLoS One. 2012;7(12):e51301. doi: 10.1371/journal.pone.0051301. Epub 2012 Dec 19.
+
+
+
+============================
+============================
+
+
+
 There is evidence for epistasis being widespread, if of lower importance to additive effects
 
 - Bloom 2013,
@@ -17,29 +167,10 @@ There is also evidence that epistasis increases with increasing organism complex
 - Additive x additive is maximised at frequencies of 0.5 x 0.5. Most human variation is at lower frequencies
 
 
-
-EXAMPLES
-
-Psoriasis (skin condition, 2.5%, h2=60-90%)
-Interaction test
-- Pairwise between top SNPs
-- Null = Multiplicative at each locus combined on odds ratio; Alt = Null + Multiplicative AxD interaction
-- Replicated
-- ERAP1 only has an additive effect when at least one risk allele at HLA-C is present
-- Searched for epistasis amongst all SNPs and HLA-C, nothing else significant found
-- Mostly additive
+============================
+============================
 
 
-Ankylosing spondylitis (inflammatory arthritis, prevalence = 5/1000, ht=90%)
-Interaction test
-- Pairwise between top SNPs
-- Same test as Psoriasis
-- Replicated twice
-- ERAP1 only has an effect when at least one risk allele at HLA_C is present
-- Mostly additive
-
-
-3 more studies
 
 
 There has not been much epistasis found. Is this because 
@@ -49,6 +180,40 @@ There has not been much epistasis found. Is this because
 
 Can we make inference on this?
 
+
+============================
+============================
+
+
+How useful is the X1xX2 interaction test? 
+Assume Dom x Dom model and calculate multiplicative or AxA test for different allele frequencies.
+
+
+============================
+============================
+
+
+Look at methods that Wenhua collates - find all citing papers and see how often they are used and if they find anything.
+
+
+============================
+============================
+
+
+Why is epistasis worth worrying about?
+- Additive effects are actually locally interacting epistatic effects in haplotype blocks
+- Distribution of effect frequencies
+
+
+============================
+============================
+
+
+Bloom paper
+- Large proportion of additive effects discovered
+- Large proportion of epistasis not discovered
+- Most epistasis discovered has marginal effects
+- But interactions between marginal effects account for a small proportion of all epistasis even though it's relatively well powered due to low multiple testing.
 
 
 
