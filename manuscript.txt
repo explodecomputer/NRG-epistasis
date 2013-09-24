@@ -26,16 +26,13 @@ By strict definition, epistasis does not have a role to play in the problem of t
 
 The missing heritability emerges from two variables, the tally of genetic effects uncovered and the estimate of the trait's h2, and in each case epistasis may have a subtle part to play. Firstly, some theoretical studies postulate that if, for some interacting loci, the epistatic variance is large compared to the additive variance, searching for epistatic effects might be one way to uncover loci with additive variance with more power than searching for the additive effects directly. Such an instance might arise if the trait has a large mutational target and is under direct selection. Thus, an increase in the number of interacting loci discovered may very well increase the proportion of additive variance uncovered.
 
-Secondly, because the direct estimation of non-additive genetic variation is almost always intractible, its contribution to the resemblence between relatives is unknown. Thus, it is possible that under certain experimental designs heritability estimates are inflated through contamination from non-additive variation. To what extent is this realistically a problem and how reliably can it be measured? A recent theoretical study (Zuk 2011) gained much attention after demonstrating that redundancy amongst biological pathways could create an illusion of additive genetic variance in twin studies provided. Indeed it is a known issue in such study designs that though it is not the most parsimonious model, a combination of non-additive variation and common environmental variation can lead to a significant additive parameter. To overcome this problem one can attempt to use family-based studies to estimate additive effects directly, and one can use contrasts between different types of relatives. For example, full siblings will share 0.5 additive variance and 0.25 dominance variance, while parent-offspring will share 0.5 additive and 0 dominance variance. If the correlation between degree of shared additive variation and phenotypic similarity is high across all types of relatives then this would be strong evidence for heritability estimates being uncontaminated by non-additive variance. Height shows consistent estimates of heritability between twin studies and family studies, but h2 estimates for BMI are much higher from twin studies than from family studies, suggesting that height is probably mostly influenced by additive effects and non-additive effects may play an important role in BMI.
+Secondly, because the direct estimation of non-additive genetic variation is almost always intractible, its contribution to the resemblence between relatives is unknown. Thus, it is possible that under certain experimental designs heritability estimates are inflated through contamination from non-additive variation. To what extent is this realistically a problem and how reliably can it be measured? A recent theoretical study (Zuk 2011) gained much attention after demonstrating that redundancy amongst biological pathways could create an illusion of additive genetic variance in twin studies provided. Indeed it is a known issue in such study designs that though it is not the most parsimonious model, a combination of non-additive variation and common environmental variation can lead to a significant additive parameter, further demonstrated theoretically by Stringer et al 2013. To overcome this problem one can attempt to use family-based studies to estimate additive effects directly, and one can use contrasts between different types of relatives. For example, full siblings will share 0.5 additive variance and 0.25 dominance variance, while parent-offspring will share 0.5 additive and 0 dominance variance. If the correlation between degree of shared additive variation and phenotypic similarity is high across all types of relatives then this would be strong evidence for heritability estimates being uncontaminated by non-additive variance. Height shows consistent estimates of heritability between twin studies and family studies, but h2 estimates for BMI are much higher from twin studies than from family studies, suggesting that height is probably mostly influenced by additive effects and non-additive effects may play an important role in BMI.
 
 
 Elucidating biological mechanisms?
 ----------------------
-<<<<<<< HEAD
-=======
 
 Suppose one has identified two polymorphisms, from independent regions of the genome, that exhibit a statistical interaction. What biological information can this tell us?
->>>>>>> 5190e628fa77bbc119aa2df2709b7bff109b6745
 
 functions of mutations
 relationships between independent genomic features
@@ -45,20 +42,25 @@ genetic redundancy
 Are there examples of interactions leading to understanding?
 Are there examples where this hasn't improved understanding?
 
+Epistasis between COMT and MTHFR in Maternal-Fetal Dyads Increases Risk for Preeclampsia
+- examples of epistatic interaction being hypothesised because of known biological function
+- (see also LOAD example)
 
-<<<<<<< HEAD
+Epistasis: Obstacle or Advantage for Mapping Complex Traits? & Hemani 2013
+- Suggest that searching for epistatic effects will find SNPs that have no marginal associations
+
+
+
+
 Evolutionary persistence of deleterious mutations?
 --------------------------------------------------
-=======
+
+
 Evolutionary impact of complex traits?
 --------------------------------------
 
 Much has
 
-
-Improvement of prediction?
---------------------------
->>>>>>> 5190e628fa77bbc119aa2df2709b7bff109b6745
 
 
 Improvement in genetic prediction?
@@ -73,43 +75,59 @@ Methods for detecting epistasis
 Wenhua's stuff
 
 
-What has been found in human complex traits?
-============================================
-
-Scale effects, haplotype effects, linked loci, liability vs observed scale
 
 
-Type 2 diabetes
----------------
+# What has been found in human complex traits?
 
-Alzheimer's Disease
--------------------
 
-Ankylosing spondylitis
-----------------------
+## Mostly very very modest, even when people are looking for it 
+- Hypothesis-Based Analysis of Gene-Gene Interactions and Risk of Myocardial Infarction
+- Shows that narrowing the search for epistasis to amongst marginal effects is not improving matters
+- upper bound on epistasis
 
-Psoriasis
----------
+## Lupus
+- Castillejo-López et al. BANK1 and BLK have marginal effects, epistasis is shown and the genes physically interact
 
-Gene expression
----------------
+## RA
+- Genin et al. Same interaction.
 
-WTCCC
------
-Wan (BOOST)
-Lippert
+## Type 2 diabetes
 
-Breast cancer
--------------
-MDR approach finds 4 way interaction
 
-Coronary artery disease
------------------------
+## Alzheimer's Disease
+
+
+## Ankylosing spondylitis
+
+
+## Psoriasis
+
+
+## Gene expression
+
+
+## WTCCC
+- Wan (BOOST)
+- Lippert
+
+
+## Breast cancer
+
+## MDR approach finds 4 way interaction
+
+## Coronary artery disease
 
 - used for prediction but training and validation both within the same sample
 
 
+## Systolic blood pressure
 
+- Functional epistatic interaction between rs6046G>A in F7 and rs5355C>T in SELE modifies systolic blood pressure levels.
+http://www.ncbi.nlm.nih.gov/pubmed/22815813
+
+
+## Bipolar
+Prabhu et al - close to replication but not quite
 
 
 
@@ -117,6 +135,8 @@ Coronary artery disease
 
 Discussion
 ==========
+
+## Scale effects, haplotype effects, linked loci, liability vs observed scale
 
 Should we be looking for epistasis?
 
