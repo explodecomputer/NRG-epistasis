@@ -79,6 +79,40 @@ What has been found in human complex traits?
 Scale effects, haplotype effects, linked loci, liability vs observed scale
 
 
+Type 2 diabetes
+---------------
+
+Alzheimer's Disease
+-------------------
+
+Ankylosing spondylitis
+----------------------
+
+Psoriasis
+---------
+
+Gene expression
+---------------
+
+WTCCC
+-----
+Wan (BOOST)
+Lippert
+
+Breast cancer
+-------------
+MDR approach finds 4 way interaction
+
+Coronary artery disease
+-----------------------
+
+- used for prediction but training and validation both within the same sample
+
+
+
+
+
+
 
 
 Discussion
