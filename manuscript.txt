@@ -196,3 +196,60 @@ Complex traits
 Mutational target size
 Additive genetic variance
 Marginal effects
+
+
+
+
+
+
+Mostly very very modest, even when people are looking for it 
+- Hypothesis-Based Analysis of Gene-Gene Interactions and Risk of Myocardial Infarction
+- Shows that narrowing the search for epistasis to amongst marginal effects is not improving matters
+- upper bound on epistasis
+
+Lupus
+- Castillejo-López et al. BANK1 and BLK have marginal effects, epistasis is shown and the genes physically interact
+
+Rheumatoid arthritis
+- Genin et al. Same interaction.
+
+Type 2 diabetes
+
+
+Alzheimer's Disease
+
+
+Ankylosing spondylitis
+
+
+Psoriasis
+
+
+Gene expression
+
+WTCCC
+- Wan (BOOST)
+- Lippert
+
+
+Breast cancer
+
+MDR approach finds 4 way interaction
+
+Coronary artery disease
+
+- used for prediction but training and validation both within the same sample
+
+
+Systolic blood pressure
+
+- Functional epistatic interaction between rs6046G>A in F7 and rs5355C>T in SELE modifies systolic blood pressure levels.
+http://www.ncbi.nlm.nih.gov/pubmed/22815813
+
+
+Bipolar
+
+Prabhu et al - close to replication but not quite
+
+
+
